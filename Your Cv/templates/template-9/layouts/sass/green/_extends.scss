@@ -1,0 +1,69 @@
+// colors
+$mainColor:#009788;
+$secondColor:#01bda4;
+$fontColor:#555;
+$h1Color:#fff;
+$h2FontColor:#fff;
+$h6FontColor:#fff;
+$iconsBgColor:$mainColor;
+$liColor:#2c3039;
+$pColor:#2c3039;
+$progressBarColor:$secondColor;
+
+// fonts
+$fontSize:14px;
+$lineHeight:22px;
+
+
+
+%imagesStyle{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+%whiteColor{
+    color:#fff;
+}
+%bgColor{
+    background-color:#fff;
+}
+%padding{
+    padding:20px 20px 0 20px;
+}
+%ulPadding{
+    padding:10px 0;
+    margin:0;
+}
+
+%liStyle{
+    position: relative;
+    font-size:$fontSize;
+    list-style-position:inside;
+}
+
+%h6After{
+    content:attr(data-text);
+    position: absolute;
+    top: -4px;
+    right: -45px;
+    padding: 5px;
+    color:$secondColor;
+}
+
+%headerH5{
+    position: relative;
+    background-color: $mainColor;
+    color:#fff;
+    margin:0 auto;
+    margin-bottom:10px;
+    text-transform: uppercase;
+    font-weight:700;
+    padding:10px;
+    display:inline-block;
+}
+%h2Style{
+    text-align:center;
+    font-size:1.75rem;
+}
